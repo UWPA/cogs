@@ -226,7 +226,7 @@ class steam:
     async def rules(self, ctx):
         embed = Embed(title="**RULES**", color=0xffffff)
         embed.add_field(name="Rule 1", value="Speak only English via voice or text chat to maintain clear channels of communication.", inline=False)
-        embed.add_field(name="Rule 2 ", value="Do not Grief, Cheat, Script or Exploit. If found to be in breach of this rule, bans received will be **permanent** and **unappealable**.", inline=False)
+        embed.add_field(name="Rule 2 ", value="Do not Grief, Cheat, Script or Exploit. If found to be in breach of this rule, bans received will be **permanent** and **unappealable** Do not Grief, Cheat, Script or Exploit. If found to be in breach of this rule, bans received will be permanent and unappealable. _This applies to previous accounts which have been VAC banned and played on Baited_.", inline=False)
         embed.add_field(name="Rule 3 ", value="Do not impersonate any Players or Baited Staff.", inline=False)
         embed.add_field(name="Rule 4", value="No 'Smurf'/alt accounts on Baited.\n\n **NOTE: In a rising trend on our Servers, Alts/Smurfs are being frequently used to throw, cheat, or evade previous bans, therefore, if caught using an Alt/Smurf account, it will be permanently banned from the Servers. Bans for this do not carry across accounts. Accounts with VAC / Game Bans received over __365 days__ ago are exempt from this rule.**", inline=False)
         embed.add_field(name="Rule 5", value="Do not abuse !calladmin. This feature is pivotal for Moderating the Servers, abuse of this system will be dealt with promptly and bans will not be overturned.", inline=False)
